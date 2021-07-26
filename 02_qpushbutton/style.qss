@@ -1,0 +1,36 @@
+QRadioButton{
+    spacing: 2px;
+    color: red;
+}
+QRadioButton::indicator {
+    width: 45px;
+    height: 30px;
+}
+
+QRadioButton::indicator:unchecked{
+    image: url(:/image/switch_off.png);
+}
+QRadioButton::indicator:checked{
+    image: url(:/image/switch_on.png);
+}
+
+QCheckBox{
+    spacing: 5px;
+    color: red;
+}
+QCheckBox::indicator{
+    width: 50px;
+    height: 50px;
+}
+QCheckBox::indicator:unchecked{
+    image: url(:/image/unchecked.png);
+}
+QCheckBox::indicator:checked{
+    image: url(:/image/checked.png);
+}
+QCheckBox::indicator:indeterminate{
+    image: url(:/image/indeterminate.png);
+}
+
+
+

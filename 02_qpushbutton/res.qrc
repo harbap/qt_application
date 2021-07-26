@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>image/switch_off.png</file>
+        <file>image/switch_on.png</file>
+        <file>image/checked.png</file>
+        <file>image/indeterminate.png</file>
+        <file>image/unchecked.png</file>
+    </qresource>
+</RCC>
