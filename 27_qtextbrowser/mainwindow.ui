@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>打开文件</string>
+    </property>
+    <addaction name="action8888"/>
+    <addaction name="action999"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>关闭文集</string>
+    </property>
+    <addaction name="actionfe"/>
+   </widget>
+   <widget class="QMenu" name="menuGavein">
+    <property name="title">
+     <string>Gavein</string>
+    </property>
+    <addaction name="actionToday"/>
+    <addaction name="actionTomorrow"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menuGavein"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionfe">
+   <property name="text">
+    <string>fe</string>
+   </property>
+  </action>
+  <action name="actionToday">
+   <property name="text">
+    <string>Today</string>
+   </property>
+  </action>
+  <action name="actionTomorrow">
+   <property name="text">
+    <string>Tomorrow</string>
+   </property>
+  </action>
+  <action name="action8888">
+   <property name="text">
+    <string>8888</string>
+   </property>
+  </action>
+  <action name="action999">
+   <property name="text">
+    <string>999</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -17,10 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    newin.cpp \
+    textbroser.cpp \
+    txtbroser.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    newin.h \
+    textbroser.h \
+    txtbroser.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -29,3 +35,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+FORMS += \
+    newin.ui \
+    txtbroser.ui

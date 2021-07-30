@@ -1,0 +1,120 @@
+QMainWindow {
+border-image:url(:/background/bk0.png);
+}
+
+QWidget#listMask {
+border-image: url(:/images/mask.png);
+background-color: transparent;
+}
+
+QListWidget#list_widge {
+color:white;
+font-size: 20px;
+border:none;
+background: rgba(250, 200, 200, 30%);
+}
+
+QListWidget#list_widge:item:active {
+background: transparent;
+}
+
+QListWidget#list_widge:item {
+background: transparent;
+height:40;
+}
+
+QListWidget#list_widge:item:selected {
+color:rgb(255,255,132);
+background: rgba(49,49,255,50%);
+}
+
+QListWidget#list_widge:item:hover {
+background: rgba(128,0,250,60%);
+color:#5ea0f3;
+border:none;
+}
+QListWidget#playmode_list{
+    color:white;
+    background-color: rgba(25, 38, 58, 80%);
+    outline:none
+}
+QPushButton#btn_play {
+border-image:url(:/images/btn_play1.png);
+}
+
+QPushButton#btn_play:hover {
+border-image:url(:/images/btn_play2.png);
+}
+
+QPushButton#btn_play:checked {
+border-image:url(:/images/btn_pause1.png);
+}
+
+QPushButton#btn_play:checked:hover {
+border-image:url(:/images/btn_pause2.png);
+}
+
+QPushButton#btn_previous {
+border-image:url(:/images/btn_previous1.png);
+}
+
+QPushButton#btn_previous:hover {
+border-image:url(:/images/btn_previous2.png);
+}
+
+QPushButton#btn_next {
+border-image:url(:/images/btn_next1.png);
+}
+
+QPushButton#btn_next:hover {
+border-image:url(:/images/btn_next2.png);
+}
+
+QPushButton#btn_favorite {
+border-image:url(:/images/btn_favorite_no.png);
+}
+
+QPushButton#btn_favorite:checked {
+border-image:url(:/images/btn_favorite_yes.png);
+}
+
+QPushButton#btn_menu {
+border-image:url(:/images/btn_menu1.png);
+}
+
+QPushButton#btn_menu:hover {
+border-image:url(:/images/btn_menu2.png);
+}
+
+QPushButton#btn_volume {
+border-image:url(:/images/btn_volume1.png);
+}
+
+QPushButton#btn_volume:hover {
+border-image:url(:/images/btn_volume2.png);
+}
+
+QSlider#duration_slider:handle:horizontal {
+border-image:url(:/images/handle.png);
+}
+
+QSlider#duration_slider:sub-page:horizontal {
+border-image:url(:/images/sub-page.png);
+}
+QSlider#volum_slider{
+background: rgba(200,200,200,30%);
+width: 6px;
+border-radius: 1px;
+padding-left:-1px;
+padding-right:-1px;
+padding-top:-1px;
+padding-bottom:-1px;
+}
+
+
+
+
+
+
+
+

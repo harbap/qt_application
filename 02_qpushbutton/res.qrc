@@ -6,5 +6,7 @@
         <file>image/checked.png</file>
         <file>image/indeterminate.png</file>
         <file>image/unchecked.png</file>
+        <file>image/openedv.png</file>
+        <file>image/battery.png</file>
     </qresource>
 </RCC>

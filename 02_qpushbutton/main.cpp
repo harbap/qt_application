@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
         qApp->setStyleSheet(stylesSheet);
         /*关闭文件*/
         file.close();
-        qDebug("styleSheet:%s\n",qPrintable(stylesSheet));
+        //qDebug("styleSheet:%s\n",qPrintable(stylesSheet));
     }
 
 
